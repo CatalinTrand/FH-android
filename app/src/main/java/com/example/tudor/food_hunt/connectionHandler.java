@@ -35,11 +35,18 @@ public class connectionHandler extends Thread {
     //schedules
     //TODO
 
+    String authKey,user_id;
     int type;
 
     AtomicReference<Object> response;
 
     private static StringBuffer getUrlSource(String link, String urlParameters) throws IOException {
+
+        if(urlParameters.length() > 0)
+            urlParameters += "&key="+authKey+"&user_id="+user_id;
+        else
+            urlParameters += "key="+authKey+"&user_id="+user_id;
+
         URL obj = new URL(link);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
 
@@ -65,9 +72,11 @@ public class connectionHandler extends Thread {
         return response;
     }
 
-    public connectionHandler(int type, Object[] data) {
+    public connectionHandler(int type, Object[] data,String authKey, String user_id) {
         this.type = type;
         this.data = data;
+        this.authKey = authKey;
+        this.user_id = user_id;
         response = null;
     }
 
