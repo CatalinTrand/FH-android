@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Food_Hunt</string>
+
+
+    <!---MainActivity-->
+    <string name="main_order_btn">Comanda si ajuta</string>
+    <string name="main_distribute_btn">Distribui mancare</string>
+    <string name="main_offer_btn">Ofer mancare</string>
+
+    <!---LogInActivity-->
+    <string name="login_txt">Autentificarea</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_passwd_hint">Parola</string>
+    <string name="login_auth_btn">Intra in cont</string>
+    <string name="login_frgt_passwd_btn">Ti-ai uitat parola?</string>
+    <string name="login_create_acc_btn">Creeaza cont</string>
+
+    <!---ForgotPasswordActivity-->
+    <string name="forgot_txt">Introduce-ti adresa de e-amil pe care ati folosit-o pentru a va inregistra.Va vom trimite un e-mail cu un link pentru resetarea parolei</string>
+    <string name="forgot_email_hint">Email</string>
+    <string name="forgot_reset_btn">Reseteaza parola</string>
+
+    <!---CreateAccountActivity-->
+    <string name="create_txt">Inregistreaza un cont nou</string>
+    <string name="create_email_hint">Email</string>
+    <string name="create_passwd_hint">Parola</string>
+    <string name="create_conf_passwd_hint">Confirma parola</string>
+    <string name="create_register_btn">Inregistreaza-te</string>
+
+    <!---OfferListActivity-->
+    <string name="offerlist_new_offer_btn">Oferta noua</string>
+
+    <!---DistributeListActivity-->
+    <string name="dstrlist_new_dstr_btn">Programare noua</string>
+
+    <!---NewOfferActivity-->
+    <string name="newoffer_desc_hint">Descriere</string>
+    <string name="newoffer_location_hint">Locatie</string>
+    <string name="newoffer_phone_hint">Numar de telefon</string>
+    <string name="newoffer_date_hint">ZZ/LL/AAAA</string>
+    <string name="newoffer_time_hint">00:00</string>
+    <string name="newoffer_send_offer_btn">Trimite oferta</string>
+
+    <!---NewDistributionActivity-->
+    <string name="newdstr_details_hint">Informatii aditionale</string>
+    <string name="newdstr_location_hint">Locatie</string>
+    <string name="newdstr_phone_hint">Numar de telefon</string>
+    <string name="newdstr_date_hint">ZZ/LL/AAAA</string>
+    <string name="newdstr_time_hint">00:00</string>
+    <string name="newdstr_send_dstr_btn">Trimite programarea</string>
+
+    <!---UserActivity-->
+    <string name="user_txt">Pana acum ai ajutat la donarea a X mese. Keep it up!</string>
+    <string name="user_tomap_btn">Selecteaza foodtruck</string>
+    <string name="user_achievements_btn">Medalii</string>
+
+    <!---OrderActivity-->
+    <string name="order_txt">Ajuta-ne sa te gasim</string>
+    <string name="order_name_hint">Nume</string>
+    <string name="order_address_hint">Adresa</string>
+    <string name="order_phone_hint">Numar de telefon</string>
+    <string name="order_send_btn">Trimite comanda</string>
+
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_food">FoodActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

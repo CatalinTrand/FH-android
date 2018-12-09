@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tudor.food_hunt.NewDistributionActivity">
+
+    <EditText
+        android:id="@+id/newdstr_location_inp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="@string/newoffer_location_hint"
+
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/newdstr_send_dstr_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/newdstr_send_dstr_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/newdstr_details_inp" />
+
+    <EditText
+        android:id="@+id/newdstr_quantity_inp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/newdstr_time_inp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:hint="@string/newoffer_time_hint"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/newdstr_date_inp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/newdstr_date_inp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:hint="@string/newoffer_date_hint"
+        android:inputType="date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/newdstr_time_inp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newdstr_time_inp" />
+
+    <EditText
+        android:id="@+id/newdstr_details_inp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/newdstr_details_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/newdstr_time_inp"
+        app:layout_constraintStart_toEndOf="@+id/newdstr_time_inp"
+        app:layout_constraintTop_toBottomOf="@+id/newdstr_date_inp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="123dp"
+        android:text="kg"
+        app:layout_constraintBottom_toTopOf="@+id/newdstr_date_inp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newdstr_quantity_inp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="@string/newdstr_phone_hint"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/newdstr_quantity_inp"
+        app:layout_constraintStart_toStartOf="@+id/newdstr_location_inp" />
+</android.support.constraint.ConstraintLayout>
